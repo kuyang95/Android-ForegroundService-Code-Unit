@@ -3,6 +3,9 @@
 24/01/16 TargetSDK 33 기준
 
 1. Manifest 에 권한 추가
+```
+    var file = await DefaultCacheManager().getSingleFile(url);
+```
 <pre>
         <code>
 <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
