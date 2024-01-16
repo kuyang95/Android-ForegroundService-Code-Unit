@@ -4,7 +4,6 @@
 
 1. Manifest 에 권한 추가
 ```
-    var file = await DefaultCacheManager().getSingleFile(url);
 <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 <uses-permission
         android:name="android.permission.POST_NOTIFICATIONS"
