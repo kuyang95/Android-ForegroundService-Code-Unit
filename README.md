@@ -3,12 +3,16 @@
 24/01/16 TargetSDK 33 기준
 
 1. Manifest 에 권한 추가
-'''
-<uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+<pre>
+        <code>
+
+                <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 <uses-permission
         android:name="android.permission.POST_NOTIFICATIONS"
         android:minSdkVersion="33" />
-'''
+        </code>
+</pre>
+
 3. Manifest 에 서비스 추가
  <service
             android:name=".MyService"
