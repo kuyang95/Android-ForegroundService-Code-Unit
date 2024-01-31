@@ -14,6 +14,8 @@
  <service
             android:name=".MyService"
             android:enabled="true"
+        android:foregroundServiceType="connectedDevice" // 의도에 맞게 바꿔야함
+>
         </service>
 ```
 
